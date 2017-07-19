@@ -1,0 +1,9 @@
+# git configの在り処 (Windows)
+
+C:\ProgramData\git\config（git config --file /c/ProgramData/git/configで読み書き可能）
+C:\Program Files\Git\mingw64\etc\gitconfig（git config --systemで読み書き可能）
+C:\Users\（ユーザ名）\.gitconfig（git config --globalで読み書き可能）
+（Gitリポジトリへのパス）\.git\config（git config --localで読み書き可能）
+
+参考) http://qiita.com/anqooqie/items/07367b2b5932f3acfc38
+
